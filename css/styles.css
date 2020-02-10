@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif; 
+}
+.cm{
+    margin:20px 10px;
+}
+.JOC{
+    height: 50vh;
+    width: 100%;
+    padding: 30px 25px 30px 25px;
+    background-color: snow;
+}
+.JOC h1{
+    color:hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.JOC h2{
+    color: hsla(71,73%,54%,0.856);
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.JOC p{
+    color: rgb(179,179,179);
+
+} 
+.ms{
+    height: 30vh;
+    width: 100%;
+    background-color:hsl(179, 62%, 43%);
+    padding:20px;
+}
+.ms h2{
+    color:white ;
+    margin-bottom: 20px;
+}
+.ms p{
+    color:hsla(203, 44%, 93%, 0.71);
+    margin-bottom: 20px;
+}
+.ms button{
+    background-color: hsla(71,73%,54%,0.856);
+    color: hsla(203, 44%, 93%, 0.71);
+    height: 30px;
+    width: 200px;
+}
+.why-us{
+    height: 40vh;
+    width: 100%;
+    background-color:rgba(27,183,189,0.6) ;
+    padding: 10px;
+}
+.why-us h2{
+    color: white;
+    margin-bottom: 15px;
+}
+.why-us p{
+    color: (247,238,238);
+    max-width: 95%;
+}
+@media(min-width:43.2rem){
+     .JOC h1{
+        font-size: 50px;
+    }
+    .JOC h2{
+        font-size: 30px;
+    }
+    .JOC p{
+        font-size: 25px;
+    }
+    .ms h2{
+        font-size: 30px;
+    }
+    .ms p{
+        font-size: 25px;
+    }
+    .ms button{
+        font-size: 25px;
+        height: 50px;
+    }
+    .why-us h2{
+        font-size: 30px;
+    }
+    .why-us p{
+        font-size: 25px;
+    }
+}
+@media(min-width:38.3rem){
+    .JOC{
+       height: 50vh;
+   }
+   .ms{
+       height: 50vh;
+   }
+   .why-us{
+       width: 50%;
+       float: left;
+       height: 50vh;
+   }
+}
